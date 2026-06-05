@@ -44,25 +44,52 @@ If both rules pass, the balance is deducted and the transaction is logged via th
 
 \---
 
-## 🧪 Test Scenarios (in Main.java)
-
+# 🧪 Test Scenarios (in Main.java)
+ 
+The program runs interactively via `Scanner`. Choose an option from the menu and enter an amount.
+ 
+**Scenario 1 — Successful withdrawal (₹1500)**
 ```
-=== Withdrawal Attempt: ₹1500 ===
-✓ Withdrawal successful! ₹1500.0 debited.
-  New balance: ₹3500.0
---- Transaction logged ---
-
-=== Withdrawal Attempt: ₹9000 ===
-✗ Insufficient funds! Balance: ₹3500.0, Requested: ₹9000.0
-  Shortfall: ₹5500.0
---- Transaction logged ---
-
-=== Withdrawal Attempt: ₹-500 ===
-✗ Invalid withdrawal amount: ₹-500.0. Must be greater than zero.
+1. Withdraw
+2. Exit
+Choose option: 1
+Enter withdrawal amount: ₹1500
+Withdrawal successful! ₹1500.0 debited.
+New balance: ₹3500.0
 --- Transaction logged ---
 ```
-
-\---
+ 
+**Scenario 2 — Overdraft attempt (₹9000)**
+```
+1. Withdraw
+2. Exit
+Choose option: 1
+Enter withdrawal amount: ₹9000
+Error: Insufficient funds! Balance: ₹3500.0, Requested: ₹9000.0
+Shortfall: ₹5500.0
+--- Transaction logged ---
+```
+ 
+**Scenario 3 — Invalid negative amount (₹-500)**
+```
+1. Withdraw
+2. Exit
+Choose option: 1
+Enter withdrawal amount: ₹-500
+Invalid Amount: Invalid withdrawal amount: ₹-500.0. Must be greater than zero.
+--- Transaction logged ---
+```
+ 
+**Scenario 4 — Exit**
+```
+1. Withdraw
+2. Exit
+Choose option: 2
+Thank you for banking with us. Goodbye!
+```
+ 
+---
+ 
 
 ## 🚀 How to Run
 
