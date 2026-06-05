@@ -133,14 +133,14 @@ Both custom exceptions extend `RuntimeException` (unchecked), so callers are not
 \---
 
 ## 🙋 Author
-
+ 
 **Surya S**  
-B.Tech in Information Technology 
-GitHub: https://github.com/Surya15062
+B.Tech in Information Technology  
+GitHub: [@Surya15062](https://github.com/Surya15062)  
+LinkedIn: [s-surya-6b9b6329b](https://linkedin.com/in/s-surya-6b9b6329b)
+ 
+---
 
-LinkedIn: https://linkedin.com/in/s-surya-6b9b6329b
-
-\---
 
 ## 📄 License
 
