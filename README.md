@@ -97,7 +97,7 @@ Thank you for banking with us. Goodbye!
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR\_USERNAME/bank-withdrawal-java.git
+git clone https://github.com/Surya15062/bank-withdrawal-java.git
 cd bank-withdrawal-java
 
 # 2. Compile all Java files
@@ -137,7 +137,6 @@ Both custom exceptions extend `RuntimeException` (unchecked), so callers are not
 **Surya S**  
 B.Tech in Information Technology 
 GitHub: https://github.com/Surya15062
-
 LinkedIn: https://linkedin.com/in/s-surya-6b9b6329b
 
 \---
